@@ -1,0 +1,31 @@
+# top level stuff you probably don't need to touch
+highlighter: rouge
+markdown: kramdown
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate, jekyll-sitemap]
+port: 3000
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://kickinbahk.github.io/
+# baseurl: /home/
+title: kickinbahk's Blog
+author: Josiah Mory
+description: Personal blog of Josiah Mory; formerly a musician, currenly a coder. I talk about Ruby, Javascript, Developer Communities, and Personal Growth.
+avatar: profile.png
+email: josiahmory@gmail.com
+github: kickinbahk 
+twitter: kickinbahk
+linkedin: josiahmory
+stackoverflow: users/4009231/kickinbahk
+#Comment out if you don't want disqus 
+# disqus: kickinbahk
+google_analytics: UA-64777363-1
+
+
+# needed for travis-ci build
+exclude: [vendor]
