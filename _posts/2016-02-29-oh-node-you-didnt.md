@@ -44,6 +44,6 @@ Another context of Javascript, or a different implementation of the language. Th
 I am enjoying the lack of absctractions, the modules, and just writing javascript. I highly recommend checking out [The Node Beginner Book](https://leanpub.com/nodebeginner) and I will be diving into the next book by that author, [The Node Craftsman Book](https://leanpub.com/nodecraftsman) in the upcoming weeks.
 
 <br>
-###### **[Connect with me on Twitter](https://twitter.com/kickinbahk) if you have any comments!**
+**[Connect with me on Twitter](https://twitter.com/kickinbahk) if you have any comments!**
 
 
