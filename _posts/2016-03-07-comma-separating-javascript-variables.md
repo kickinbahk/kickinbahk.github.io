@@ -7,7 +7,7 @@ tags:
 - Coding
 - Variables
 ---
-
+![Commas falling on green background](./assets/images/comma-separating-vars.jpg)
 I was going through a book on node recently and came across something very unfamiliar. Usually, a quick Google search will resolve and clarify any questions or misconceptions, but this one had me stumped. Partially because I didn't really even know if I was searching for it the right way.
 
 So what was my problem? I came across this line in a node tutorial:
@@ -20,8 +20,8 @@ Now you may know exactly what is happening here. I know I felt pretty dumb once 
 
 {% highlight javascript %}
 var querystring = require('querystring')
-fa = require('fa')
-formidable = require('formidable');
+var fa = require('fa')
+var formidable = require('formidable');
 {% endhighlight %}
 
 As I said, I knew the program was working how I was expecting it to function, but I wasn't sure why. Additionally, all my searches were not returning anywhere close to the answer I wanted. I knew this was a test, a challenge to my Google Fu, so I kept changing my searches, trying to find the answer to my question. Eventually, I came across [this stackoverflow question](http://stackoverflow.com/questions/21619413/comma-separation-in-javascript).
