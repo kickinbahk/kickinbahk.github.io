@@ -18,13 +18,13 @@ author: Josiah Mory
 description: Personal blog of Josiah Mory; formerly a musician, currenly a coder. I talk about Ruby, Javascript, Developer Communities, and Personal Growth.
 avatar: profile.png
 email: josiahmory@gmail.com
-github: kickinbahk 
+github: kickinbahk
 twitter: kickinbahk
 linkedin: josiahmory
 stackoverflow: users/4009231/kickinbahk
-#Comment out if you don't want disqus 
+#Comment out if you don't want disqus
 # disqus: kickinbahk
-google_analytics: UA-64777363-1
+google_analytics: UA-64777363-2
 
 
 # needed for travis-ci build
