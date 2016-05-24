@@ -91,7 +91,7 @@ When you make your own snippet, you need to first know the package/packages you 
 
 I want to modify the javascript default for exporting a module, so I can use `source.js`
 
-###### NOTE: Sometimes this can be different, for example the Ruby package scope:
+** NOTE: Sometimes this can be different, for example the Ruby package scope: **
 
 ![Ruby Package Scope](./assets/images/atom-custom-snippets/package-ruby.png)
 
@@ -107,6 +107,7 @@ This is what will replace the shortcut (aka: added to your file). I want it to b
 This is great, however what if we want the cursor placed where we need to type we need to make a small change. You can add `$1` and when you use the snippet, it will automatically place the cursor there for you to type. You can change the syntax slightly to `${1:name}`. This will place your cusor there, but use 'name' as a placeholder.
 
 We can add additional numebers if there are additional areas that we need to be filled in by incrementing the syntax (`$2`... or `${2:foo}`). The entire syntax we have been doing would end up looking like:
+
 ```
 '.source.js':
   'Module Exports':
@@ -116,6 +117,7 @@ We can add additional numebers if there are additional areas that we need to be 
 
 ### Add a multi-line snippet
 If we want the snippet to be multi-lined we need to make a simple change to the syntax. We just need to use 3 double quotes rather than single quotes. Here is the way that would look:
+
 ```
 '.source.js':
    'function':
