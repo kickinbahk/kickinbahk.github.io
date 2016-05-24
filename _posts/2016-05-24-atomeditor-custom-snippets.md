@@ -26,7 +26,7 @@ Most snippets have a shortcut associated with them. You can see this next to the
 2) Type `expmod` in the file. When you see the autocomplete show, hit enter on that shortcut.
 3) You should see it auto fill with:
 
-{% highlight coffee linenos %}
+{% highlight coffeescript %}
     module.exports = name;
 {% endhighlight %}
 
@@ -35,7 +35,7 @@ Pretty cool right? Lets try one more:
 2) Type `req` at the top. When you see the autocomplete show, hit enter.
 3) You should see it auto fill with:
 
-{% highlight coffee linenos %}
+{% highlight coffeescript %}
     require('module');
 {% endhighlight %}
 
@@ -47,7 +47,7 @@ This can even be for multi-line code snippets:
 2) Type `iife` at the top. When you see the autocomplete show, hit enter.
 3) You should see it auto fill with:
 
-{% highlight coffee linenos %}
+{% highlight coffeescript %}
   (function() {
     'use strict';
 
@@ -66,7 +66,7 @@ When you are in Atom click the dropdown menu and you should see an option for 's
 
 When you open this up, you will see the template for creating your own snippet. It should look something like:
 
-{% highlight coffee linenos %}
+{% highlight coffeescript %}
 '.source.coffee':
    'Console log':
      'prefix': 'log'
@@ -89,7 +89,7 @@ When you make your own snippet, you need to first know the package/packages you 
 3) Under `Installed Packages`, type 'languages'. This will bring up a list of all the languages you have installed.
 ![Packages list](./assets/images/atom-custom-snippets/installed-packages.png)
 4) Find the language you want to make a snippet for and Click `Settings`. __You can also scroll all the way down on this page to see the default snippets__
-5) Part way down you will see `Scope`, this is what you want to use as the package name.  
+5) Part way down you will see `Scope`, this is what you want to use as the package name.
 
 ![Javascript Package Scope](./assets/images/atom-custom-snippets/package-js.png)
 
@@ -112,7 +112,7 @@ This is great, however what if we want the cursor placed where we need to type w
 
 We can add additional numebers if there are additional areas that we need to be filled in by incrementing the syntax (`$2`... or `${2:foo}`). The entire syntax we have been doing would end up looking like:
 
-{% highlight coffee linenos %}
+{% highlight coffeescript %}
 '.source.js':
   'Module Exports':
     'prefix': 'expmod'
@@ -122,7 +122,7 @@ We can add additional numebers if there are additional areas that we need to be 
 ### Add a multi-line snippet
 If we want the snippet to be multi-lined we need to make a simple change to the syntax. We just need to use 3 double quotes rather than single quotes. Here is the way that would look:
 
-{% highlight coffee linenos %}
+{% highlight coffeescript %}
 '.source.js':
    'function':
      'prefix': 'newfunc'
