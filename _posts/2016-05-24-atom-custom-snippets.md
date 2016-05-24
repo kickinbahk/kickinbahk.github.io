@@ -39,16 +39,18 @@ Pretty cool right? Lets try one more:
 
 Again, really cool. It even places our cursor in the proper place to begin editing the code and adding the name we need.
 
-This can even be for multi-line code snippets:
+This can even be for multi-line code snippets:  
+
 1) In the same file
 2) Type `iife` at the top. When you see the autocomplete show, hit enter.
 3) You should see it auto fill with:
-  ```
-    (function() {
-      'use strict';
 
-    }());
-  ```
+```
+  (function() {
+    'use strict';
+
+  }());
+```
 
 ## Snippet Format
 
