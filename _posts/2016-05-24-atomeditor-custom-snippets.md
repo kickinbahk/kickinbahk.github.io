@@ -26,7 +26,7 @@ Most snippets have a shortcut associated with them. You can see this next to the
 2. Type `expmod` in the file. When you see the autocomplete show, hit enter on that shortcut.
 3. You should see it auto fill with:
 
-{% highlight coffeescript %}
+{% highlight javascript %}
     module.exports = name;
 {% endhighlight %}
 
@@ -35,7 +35,7 @@ Pretty cool right? Lets try one more:
 2. Type `req` at the top. When you see the autocomplete show, hit enter.
 3. You should see it auto fill with:
 
-{% highlight coffeescript %}
+{% highlight javascript %}
     require('module');
 {% endhighlight %}
 
@@ -47,7 +47,7 @@ This can even be for multi-line code snippets:
 2. Type `iife` at the top. When you see the autocomplete show, hit enter.
 3. You should see it auto fill with:
 
-{% highlight coffeescript %}
+{% highlight javascript %}
   (function() {
     'use strict';
 
@@ -66,7 +66,7 @@ When you are in Atom click the dropdown menu and you should see an option for 's
 
 When you open this up, you will see the template for creating your own snippet. It should look something like:
 
-{% highlight coffeescript %}
+{% highlight json %}
 '.source.coffee':
    'Console log':
      'prefix': 'log'
@@ -112,7 +112,7 @@ This is great, however what if we want the cursor placed where we need to type w
 
 We can add additional numebers if there are additional areas that we need to be filled in by incrementing the syntax (`$2`... or `${2:foo}`). The entire syntax we have been doing would end up looking like:
 
-{% highlight coffeescript %}
+{% highlight json %}
 '.source.js':
   'Module Exports':
     'prefix': 'expmod'
@@ -122,7 +122,7 @@ We can add additional numebers if there are additional areas that we need to be 
 ### Add a multi-line snippet
 If we want the snippet to be multi-lined we need to make a simple change to the syntax. We just need to use 3 double quotes rather than single quotes. Here is the way that would look:
 
-{% highlight coffeescript %}
+{% highlight json %}
 '.source.js':
    'function':
      'prefix': 'newfunc'
