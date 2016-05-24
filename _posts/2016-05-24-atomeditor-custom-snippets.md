@@ -22,18 +22,18 @@ To use snippets, you simply can hit `⌥ + ⇧ + s` and a list of all available 
 
 ### By Shortcut
 Most snippets have a shortcut associated with them. You can see this next to the name of the snippet when you search for it or you may see it as an autocomplete option as you are typing some code. This is my preferred usage of snippets. Let's see one of these in action:
-1) Open up a javascript (.js) file.
-2) Type `expmod` in the file. When you see the autocomplete show, hit enter on that shortcut.
-3) You should see it auto fill with:
+1. Open up a javascript (.js) file.
+2. Type `expmod` in the file. When you see the autocomplete show, hit enter on that shortcut.
+3. You should see it auto fill with:
 
 {% highlight coffeescript %}
     module.exports = name;
 {% endhighlight %}
 
 Pretty cool right? Lets try one more:
-1) In the same file
-2) Type `req` at the top. When you see the autocomplete show, hit enter.
-3) You should see it auto fill with:
+1. In the same file
+2. Type `req` at the top. When you see the autocomplete show, hit enter.
+3. You should see it auto fill with:
 
 {% highlight coffeescript %}
     require('module');
@@ -43,9 +43,9 @@ Again, really cool. It even places our cursor in the proper place to begin editi
 
 This can even be for multi-line code snippets:
 
-1) In the same file
-2) Type `iife` at the top. When you see the autocomplete show, hit enter.
-3) You should see it auto fill with:
+1. In the same file
+2. Type `iife` at the top. When you see the autocomplete show, hit enter.
+3. You should see it auto fill with:
 
 {% highlight coffeescript %}
   (function() {
@@ -84,12 +84,12 @@ When you make your own snippet, you need to first know the package/packages you 
 
 #### To find the package name:
 
-1) Click on `Preferences` in the dropdown
-2) In the `Settings` tab that appears, choose `Packages`
-3) Under `Installed Packages`, type 'languages'. This will bring up a list of all the languages you have installed.
+1. Click on `Preferences` in the dropdown
+2. In the `Settings` tab that appears, choose `Packages`
+3. Under `Installed Packages`, type 'languages'. This will bring up a list of all the languages you have installed.
 ![Packages list](./assets/images/atom-custom-snippets/installed-packages.png)
-4) Find the language you want to make a snippet for and Click `Settings`. __You can also scroll all the way down on this page to see the default snippets__
-5) Part way down you will see `Scope`, this is what you want to use as the package name.
+4. Find the language you want to make a snippet for and Click `Settings`. __You can also scroll all the way down on this page to see the default snippets__
+5. Part way down you will see `Scope`, this is what you want to use as the package name.
 
 ![Javascript Package Scope](./assets/images/atom-custom-snippets/package-js.png)
 
