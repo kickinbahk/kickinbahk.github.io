@@ -25,32 +25,34 @@ Most snippets have a shortcut associated with them. You can see this next to the
 1) Open up a javascript (.js) file.
 2) Type `expmod` in the file. When you see the autocomplete show, hit enter on that shortcut.
 3) You should see it auto fill with:
-  ```
+
+{% highlight coffee linenos %}
     module.exports = name;
-  ```
+{% endhighlight %}
 
 Pretty cool right? Lets try one more:
 1) In the same file
 2) Type `req` at the top. When you see the autocomplete show, hit enter.
 3) You should see it auto fill with:
-  ```
+
+{% highlight coffee linenos %}
     require('module');
-  ```
+{% endhighlight %}
 
 Again, really cool. It even places our cursor in the proper place to begin editing the code and adding the name we need.
 
-This can even be for multi-line code snippets:  
+This can even be for multi-line code snippets:
 
 1) In the same file
 2) Type `iife` at the top. When you see the autocomplete show, hit enter.
 3) You should see it auto fill with:
 
-```
+{% highlight coffee linenos %}
   (function() {
     'use strict';
 
   }());
-```
+{% endhighlight %}
 
 ## Snippet Format
 
@@ -64,12 +66,12 @@ When you are in Atom click the dropdown menu and you should see an option for 's
 
 When you open this up, you will see the template for creating your own snippet. It should look something like:
 
-```
+{% highlight coffee linenos %}
 '.source.coffee':
    'Console log':
      'prefix': 'log'
      'body': 'console.log $1'
-```
+{% endhighlight %}
 
 Let's break this down...`.source.coffee` is the package name that you want this to apply to (i.e. javascript, ruby, ect). `Console log` is the name of the snippet. The shortcut we will use it denoted by the `prefix`. Lastly, the `body` is what will actually be 'filled' by the shortcut.
 
@@ -87,7 +89,7 @@ When you make your own snippet, you need to first know the package/packages you 
 3) Under `Installed Packages`, type 'languages'. This will bring up a list of all the languages you have installed.
 ![Packages list](./assets/images/atom-custom-snippets/installed-packages.png)
 4) Find the language you want to make a snippet for and Click `Settings`. __You can also scroll all the way down on this page to see the default snippets__
-5) Part way down you will see `Scope`, this is what you want to use as the package name.
+5) Part way down you will see `Scope`, this is what you want to use as the package name.  
 
 ![Javascript Package Scope](./assets/images/atom-custom-snippets/package-js.png)
 
@@ -110,17 +112,17 @@ This is great, however what if we want the cursor placed where we need to type w
 
 We can add additional numebers if there are additional areas that we need to be filled in by incrementing the syntax (`$2`... or `${2:foo}`). The entire syntax we have been doing would end up looking like:
 
-```
+{% highlight coffee linenos %}
 '.source.js':
   'Module Exports':
     'prefix': 'expmod'
     'body': 'module.exports = ${1:name}'
-```
+{% endhighlight %}
 
 ### Add a multi-line snippet
 If we want the snippet to be multi-lined we need to make a simple change to the syntax. We just need to use 3 double quotes rather than single quotes. Here is the way that would look:
 
-```
+{% highlight coffee linenos %}
 '.source.js':
    'function':
      'prefix': 'newfunc'
@@ -129,7 +131,7 @@ If we want the snippet to be multi-lined we need to make a simple change to the 
         $1
       }
      """
-```
+{% endhighlight %}
 
 This should allow the customization of snippets you want and hopefully will speed up your coding.
 
