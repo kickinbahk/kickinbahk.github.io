@@ -7,7 +7,7 @@ tags:
 - iOS
 - Apple
 ---
-![Swift logo](./assets/images/atom-custom-snippets/Swift_logo.png)
+![Swift logo](./assets/images/Swift_logo.png)
 <br />
 
 Sometimes you just get busy learning and stop writing! It has been _forever_ since the last post. I know I much prefer to record learning using some other mediums most often (like podcasts and videos), but I really shouldn't have gone this long without an update. But I digress. 
@@ -22,4 +22,4 @@ As with all I do, I have gone into it hot and heavy. I have even been involved w
 
 These update posts are always weird...who cares? HA! But I like to keep these in as some sort of online journal to explain why there is a gap and what my focus is moving forward. 
 
-Just keep coding!
+Just keep coding! 
