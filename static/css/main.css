@@ -3,7 +3,7 @@
 html,
 body {
   height: 100%;
-  background-color: #fff;
+  background-color: ##fff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
   border-top: 3px solid #0E3B66;
@@ -142,7 +142,7 @@ body {
 -------------------------------------------------- */
 
 h3 {
-  font-size: 25px;
+  font-size: 23px;
 }
 .section-title {
   font-weight: bold;
@@ -195,6 +195,13 @@ h3 {
   }
 }
 
+/* Portfolio CSS
+-------------------------------------------------- */
+
+.portfolio-img {
+  max-width: 30%;
+  display: inline-block;
+}
 
 
 .social {
@@ -228,21 +235,15 @@ h3 {
 iframe {
     margin-right: 20px;
 }
+
 /* Footer
 -------------------------------------------------- */
 
-.footer {
+#footer {
   text-decoration: none !important;
+  background-color: #0E3B66;
+
 }
 .text-muted {
-	color: #6b6b6b;
+	color: #e7e7eb;
 }
-div.footer {
-  border-bottom: 5px solid #0E3B66;
-}
-/* Set the fixed height of the footer here */
-/*.footer {
-  height: 50px;
-  padding-bottom: 15px;
-
-}*/

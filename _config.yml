@@ -13,11 +13,11 @@ safe: true
 # edit here to achieve your personal greatness
 url: http://kickinbahk.github.io/
 # baseurl: /home/
-title: kickinbahk's Blog
+title: kickinbahk's site
 author: Josiah Mory
-description: Personal blog of Josiah Mory; formerly a musician, currenly a coder. I talk about Ruby, Javascript, Developer Communities, and Personal Growth.
+description: Personal site of Josiah Mory; formerly a musician, currenly a coder. I stream iOS app developerment on Twitch.
 avatar: profile.png
-email: josiahmory@gmail.com
+email: josiah@kickinbahkproductions.com
 github: kickinbahk
 twitter: kickinbahk
 linkedin: josiahmory
