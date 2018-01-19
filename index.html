@@ -3,14 +3,47 @@ layout: home
 ---
 
 <section id="about">
+	<div class="container  img-restrict">
+		<img class="img-circle img-responsive img-restrict" src="{{ site.baseurl }}static/img/profile-1.jpg" alt="profile image">
+	</div>
+	<br />
+
 	<div class="container">
-	  <div class="avatar">
-			<img class="img-circle img-responsive" src="{{ site.baseurl }}static/img/{{ site.avatar }}" alt="profile image">
-	  </div>
-	  <h3>I'm <strong>{{ site.author }}</strong>, an iOS Developer.</h3>
-	  <h3>I love technology, coding, and once upon a time, worked as a freelance musician</h3>
-	  <h3>Have a look at some of my <a href="https://github.com/kickinbahk">github projects</a> and check out the <a href="https://itunes.apple.com/us/app/mock-solo-baseball-2017/id1205219100?ls=1&mt=8">App I made</a> for iOS.</h3>
-	  <h3>Contact me at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> or by <a href="mailto:{{ site.email }}">email</a>.</h3>
-	  {% include social.html %}
+		<h2>I'm <strong>{{ site.author }}</strong>, an iOS Developer and Twich streamer.</h2>
+		<br />
+		<h1 class="section-title">Current Projects</h1>
+		<br />
+		<div class="col-xs col-xs-offest-4 inner-section">	
+			<a href="https://www.gtma.agency">
+				<img class="section-img" src="{{ site.baseurl }}static/img/gtma.jpeg" />
+			</a>
+			<div class="col-xs inner-section-text">
+				<h3>
+					I am contracting with the digital marketing agency, Go To My Apartment, helping them automate internal processes primarily using the AdWords and GoogleSheet's APIs saving manual data entry and removing human error from daily tracking.
+
+				</h3>
+			</div>
+		</div>
+		<div class="col-sm col-sm-offest-4 inner-section">	
+			<a href="https://www.twitch.tv/kickinbahk">
+				<img class="section-img" src="{{ site.baseurl }}static/img/twitch-tv.jpeg" />
+			</a>
+			<div class="inner-section-text">
+				<h3>
+					Stream 2 or more times a week developing iOS applications. Working on different projects, frameworks and libraries related to iOS and iPhone App development using Swift. Also upload streams and stream excerpts to YouTube for later watching.
+				</h3>
+			</div>
+		</div>
+		<div class="col-sm col-sm-offest-4 inner-section">
+			<a href="https://itunes.apple.com/us/app/mock-solo-baseball-2017/id1205219100?ls=1&mt=8">
+				<img class="section-img" src="{{ site.baseurl }}static/img/mocksolo-iconrounded.png" />
+			</a>
+			<div class="inner-section-text">
+				<h3>
+					An app designed to practice drafting a fantasy baseball team. Built from the ground up and 100% built by me. The entire UI was created in code instead of Storyboards. Most proud of algorithm to calculate the next pick based off position in the draft.
+				</h3>
+			</div>				
+		</div>
+
 	</div>
 </section>

@@ -1,4 +1,4 @@
-/* Main page with stikky-footer
+/* Main page with sticky-footer
 -------------------------------------------------- */
 html,
 body {
@@ -107,10 +107,9 @@ body {
 .container p a:hover {
   color: #0E3B67;
 }
-.img-responsive {
- display: block;
- height: auto;
- max-width: 100%;
+.img-restrict {
+  max-height: 870px;
+  max-width: 870px;
 }
 .panel-default h4 {
   text-align: left;
@@ -131,24 +130,79 @@ body {
 .panel-default h4 a:hover, h5 a:hover {
   color: #267723;
 }
-.panel{
+.panel {
   border-style: none;
 }
 .panel-body {
   padding-top: -10px;
   text-align: left;
 }
+
+/* Sections CSS
+-------------------------------------------------- */
+
+h3 {
+  font-size: 25px;
+}
+.section-title {
+  font-weight: bold;
+  font-size: 45px;
+  color: #0E3B66;
+  margin-top: 60px !important;
+  margin-bottom: 50px !important;
+}
+
+.inner-section {
+  margin-bottom: 10px;
+  height: 300px;
+}
+.section-img {
+  max-width: 251px;
+  display: inline-block;
+  position: relative;
+  max-height: 93px;
+  margin-bottom: 150px;
+}
+.inner-section-text {
+  margin-left: 40px;
+  display: inline-block;
+  width: 500px;
+}
+.app-icon {
+  max-width: 28%;
+  border-radius: 5%;
+}
+@media (max-width: 550px) {
+  .inner-section-text {
+    margin-left: 0px;
+    width: 300px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 845px) {
+  .section-img {
+    margin-bottom: 0px;
+    max-width: 251px;
+    height: 93px;
+  }
+  .inner-section {
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+
+
+
 .social {
   padding-top: 12px;
   word-spacing: 25px;
 }
 .social h4 > a {
   color: #000000;
-}
-.avatar {
-  padding-top: 5%;
-  max-width: 80%;
-  padding-left: 20%;
 }
 .blog-post{
   padding-top: 15px;
