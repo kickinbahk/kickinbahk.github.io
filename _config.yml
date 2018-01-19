@@ -13,9 +13,9 @@ safe: true
 # edit here to achieve your personal greatness
 url: http://kickinbahk.github.io/
 # baseurl: /home/
-title: kickinbahk's site
+title: iOS Developer and Twitch Streamer - kickinbahk
 author: Josiah Mory
-description: Personal site of Josiah Mory; formerly a musician, currenly a coder. I stream iOS app developerment on Twitch.
+description:  Josiah Mory; formerly a musician, currently an iOS developer. I stream iOS app developement on Twitch.
 avatar: profile.png
 email: josiah@kickinbahkproductions.com
 github: kickinbahk
